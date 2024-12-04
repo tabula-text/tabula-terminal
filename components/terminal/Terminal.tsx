@@ -113,7 +113,7 @@ export function Terminal() {
               />
               <div className="absolute inset-0 pointer-events-none text-green-500">
                 {input}
-                <Caret visible={caretVisible} className="left-[calc(0.6em*var(--cursor-pos))]" style={{ "--cursor-pos": input.length } as any} />
+                <Caret visible={caretVisible} className="left-[calc(0.6em*var(--cursor-pos))]" />
               </div>
             </div>
           </div>
